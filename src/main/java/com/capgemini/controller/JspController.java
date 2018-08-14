@@ -11,9 +11,6 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class JspController {
 
-	@RequestMapping("/")
-    public ModelAndView welcome(){
-       ModelAndView modelAndView = new ModelAndView("index");
-       return modelAndView;
-    }
+	
+	
 }
