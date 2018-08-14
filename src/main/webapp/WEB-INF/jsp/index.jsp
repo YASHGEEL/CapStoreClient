@@ -105,24 +105,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</div>
 									<div class="col-sm-3 multi-gd-img">
 										<ul class="multi-column-dropdown">
-											<li><a href="mens.html">Clothing</a></li>
-											<li><a href="mens.html">Wallets</a></li>
-											<li><a href="mens.html">Footwear</a></li>
-											<li><a href="mens.html">Watches</a></li>
-											<li><a href="mens.html">Accessories</a></li>
-											<li><a href="mens.html">Bags</a></li>
-											<li><a href="mens.html">Caps & Hats</a></li>
+											<li><a href="mens">Clothing</a></li>
+											<li><a href="mens">Wallets</a></li>
+											<li><a href="mens">Footwear</a></li>
+											<li><a href="mens">Watches</a></li>
+											<li><a href="mens">Accessories</a></li>
+											<li><a href="mens">Bags</a></li>
+											<li><a href="mens">Caps & Hats</a></li>
 										</ul>
 									</div>
 									<div class="col-sm-3 multi-gd-img">
 										<ul class="multi-column-dropdown">
-											<li><a href="mens.html">Jewellery</a></li>
-											<li><a href="mens.html">Sunglasses</a></li>
-											<li><a href="mens.html">Perfumes</a></li>
-											<li><a href="mens.html">Beauty</a></li>
-											<li><a href="mens.html">Shirts</a></li>
-											<li><a href="mens.html">Sunglasses</a></li>
-											<li><a href="mens.html">Swimwear</a></li>
+											<li><a href="mens">Jewellery</a></li>
+											<li><a href="mens">Sunglasses</a></li>
+											<li><a href="mens">Perfumes</a></li>
+											<li><a href="mens">Beauty</a></li>
+											<li><a href="mens">Shirts</a></li>
+											<li><a href="mens">Sunglasses</a></li>
+											<li><a href="mens">Swimwear</a></li>
 										</ul>
 									</div>
 									<div class="clearfix"></div>
