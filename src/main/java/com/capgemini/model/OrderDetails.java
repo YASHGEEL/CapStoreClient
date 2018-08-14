@@ -3,7 +3,9 @@ package com.capgemini.model;
 import java.sql.Date;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class OrderDetails 
 {
 	
