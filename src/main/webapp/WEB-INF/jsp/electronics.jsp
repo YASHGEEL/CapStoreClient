@@ -80,7 +80,7 @@ font-size: xx-large;
 </style>
 </head>
 <body>
-		<!-- header -->
+	<!-- header -->
 	<div class="header" id="home">
 		<div class="container">
 			<ul>
@@ -89,15 +89,15 @@ font-size: xx-large;
 						<i class="fa fa-unlock-alt" aria-hidden="true"></i> Hello customer-name
 					</div>	
 					<ul class="dropdown-menu" style="background: black;">
-					     <li style="width: 100%; border-right: black;"><a href="changePassword" style="font-size: larger;">Change Password</a></li>
-					     <li style="width: 100%; border-right: black;"><a href="myOrders" style="font-size: larger;">My Orders</a></li>
-					     <li style="width: 100%; border-right: black;"><a href="wishlist" style="font-size: larger;">My Wishlist</a></li>
-					     <li style="width: 100%; border-right: black;"><a href="/" style="font-size: larger;">Logout</a></li>
+					     <li style="width: 100%; border-right: black;"><a href="#" style="font-size: larger;">Change Password</a></li>
+					     <li style="width: 100%; border-right: black;"><a href="#" style="font-size: larger;">My Orders</a></li>
+					     <li style="width: 100%; border-right: black;"><a href="#" style="font-size: larger;">My Wishlist</a></li>
+					     <li style="width: 100%; border-right: black;"><a href="#" style="font-size: larger;">Logout</a></li>
 				    </ul>
 				</div></li>		
 				<li style="width: 30%;float: right;border-right: black;">
 					<div class="header-middle">
-					<form action="searchPage" method="post">
+					<form action="#" method="post">
 						<input type="search" name="search" placeholder="Search here..."
 							required=""> <input type="submit" value=" ">
 						<div class="clearfix"></div>
@@ -115,7 +115,7 @@ font-size: xx-large;
 			
 			<div class="col-md-12 logo_agile">
 				<h1>
-					<a href="index"><span>CapStore</span>Shoppy <i
+					<a href="index.html"><span>CapStore</span>Shoppy <i
 						class="fa fa-shopping-bag top_logo_agile_bag" aria-hidden="true"></i></a>
 				</h1>
 			</div>
@@ -145,16 +145,16 @@ font-size: xx-large;
 						<div class="collapse navbar-collapse menu--shylock"
 							id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav menu__list">
-								<li class=" menu__item"><a class="menu__link"
-									href="customer-homepage">Home </a></li>
+								<li class="active menu__item"><a class="menu__link"
+									href="customer-homepage">Home</a></li>
 								<li class=" menu__item "><a
 									class="menu__link" href="mens">Men's Wear</a></li>
-								<li class="active menu__item menu__item--current"><a
-									class="menu__link" href="womens">Women's Wear<span class="sr-only">(current)</span></a></li>
-								<li class=" menu__item "><a
-									class="menu__link" href="womens">Kid's Wear</a></li>
-								<li class=" menu__item "><a
-									class="menu__link" href="electronics">Electronics</a></li>
+								<li class=" menu__item"><a
+									class="menu__link" href="womens">Women's Wear</a></li>
+								<li class=" menu__item"><a
+									class="menu__link" href="kids">Kid's Wear</a></li>
+								<li class=" menu__item menu__item--current"><a
+									class="menu__link" href="electronics">Electronics<span class="sr-only">(current)</span></a></li>
 								
 							</ul>
 						</div>
@@ -163,7 +163,7 @@ font-size: xx-large;
 			</div>
 			<div class="top_nav_right">
 				<div class="wthreecartaits wthreecartaits2 cart cart box_1">
-					<form action="searchPage" method="post" class="last">
+					<form action="#" method="post" class="last">
 						<input type="hidden" name="cmd" value="_cart"> <input
 							type="hidden" name="display" value="1">
 						<button class="w3view-cart" type="submit" name="submit" value="">
@@ -177,21 +177,20 @@ font-size: xx-large;
 		</div>
 	</div>
 	<!-- //banner-top -->
-
 	<!-- //Modal2 -->
 	<!-- /banner_bottom_agile_info -->
 	<div class="page-head_agile_info_w3l">
 		<div class="container">
 			<h3>
-				Women's <span>Wear </span>
+				Electronics
 			</h3>
 			<!--/w3_short-->
 			<div class="services-breadcrumb">
 				<div class="agile_inner_breadcrumb">
 
 					<ul class="w3_short">
-						<li><a href="/">Home</a><i>|</i></li>
-						<li>Women's Wear</li>
+						<li><a href="customer-homepage">Home</a><i>|</i></li>
+						<li>Electronics Wear</li>
 					</ul>
 				</div>
 			</div>
@@ -311,7 +310,7 @@ font-size: xx-large;
 		<div class="footer_agile_inner_info_w3l">
 			<div class="col-md-6 footer-left" style="text-align: justify;">
 				<h2>
-					<a href="index"><span>CapStore</span> Shoppy </a>
+					<a href="index.html"><span>CapStore</span> Shoppy </a>
 				</h2>
 				<p>CapStore is a web based e-commerce website that allows users
 					to buy or sell products. Users can view products from different
@@ -558,5 +557,42 @@ font-size: xx-large;
 
 	<!-- for bootstrap working -->
 	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+$(document).ready(function(){
+	$(".add-to-cart").on('click', function(){
+		console.log("add-to-cart");
+		$("#cart-box").css("display", "block");
+	});
+	$("#close-cart").on('click', function(){
+		console.log("close cart");
+		$("#cart-box").css("display", "none");
+	});
+	$(".add-to-wishlist").on('click', function(){
+		console.log("add-to-wishlist");
+		$("#wishlist-box").css("display", "block");
+	});
+	$("#close-wishlist").on('click', function(){
+		console.log("close wishlist");
+		$("#wishlist-box").css("display", "none");
+	});
+	
+	$(".s-add-to-cart").on('click', function(){
+		console.log("s-add-to-cart");
+		$("#s-cart-box").css("display", "block");
+	});
+	$("#s-close-cart").on('click', function(){
+		console.log("s-close cart");
+		$("#s-cart-box").css("display", "none");
+	});
+	$(".s-add-to-wishlist").on('click', function(){
+		console.log("s-add-to-wishlist");
+		$("#s-wishlist-box").css("display", "block");
+	});
+	$("#s-close-wishlist").on('click', function(){
+		console.log("s-close wishlist");
+		$("#s-wishlist-box").css("display", "none");
+	});
+});
+</script>
 </body>
 </html>
