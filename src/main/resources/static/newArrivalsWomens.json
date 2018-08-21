@@ -1,0 +1,18 @@
+[{
+	"id":12,
+	"name":"Skirt",
+	"cost":25,
+	"imageUrl":"/images/w1.jpg"
+},
+{
+	"id":13,
+	"name":"Jeans",
+	"cost":25,
+	"imageUrl":"/images/w3.jpg"
+},
+{
+	"id":14,
+	"name":"Topper",
+	"cost":25,
+	"imageUrl":"/images/w2.jpg"
+}]

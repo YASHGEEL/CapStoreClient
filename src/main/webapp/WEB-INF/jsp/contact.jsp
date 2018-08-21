@@ -16,9 +16,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--//tags -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/font-awesome.css" rel="stylesheet"> 
 <!-- //for bootstrap working -->
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
@@ -648,10 +648,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //login -->
 <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- js -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
 <!-- //js -->	
 	<!-- cart-js -->
-	<script src="js/minicart.min.js"></script>
+	<script src="/js/minicart.min.js"></script>
 <script>
 	// Mini Cart
 	paypal.minicart.render({
@@ -666,15 +666,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //cart-js --> 
 
 <!-- stats -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.countup.js"></script>
+	<script src="/js/jquery.waypoints.min.js"></script>
+	<script src="/js/jquery.countup.js"></script>
 	<script>
 		$('.counter').countUp();
 	</script>
 <!-- //stats -->
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="/js/move-top.js"></script>
+<script type="text/javascript" src="/js/jquery.easing.min.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -702,6 +702,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //here ends scrolling icon -->
 
 <!-- for bootstrap working -->
-<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="/js/bootstrap.js"></script>
 </body>
 </html>
